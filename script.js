@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         case 'whois':
             return "My name is Bismuth, I'm a British Male who is curious about coding. I'm a beginner and I'm excited to learn more.";
          case 'repo':
-            return "https://bismuthh.github.io/term.bismuth.com/";
+            return "https://github.com/Bismuthh/term.bismuth.com";
 
         case 'clear':
             outputElement.textContent = '';
