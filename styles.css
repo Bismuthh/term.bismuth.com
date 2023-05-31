@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    background-color: rgb(38, 38, 38);
+    color: #acdef1;
+}
+
+#terminal {
+    font-family: monospace; 
+    background-color: #262931;
+    color: #acdef1;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    border: 2px solid #7899a6;
+  }
+
+#output {
+    font-family: monospace;
+    margin: 0;
+    transition: scroll-behavior 0.3s ease-in-out;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    color: #acdef1;
+    margin-bottom: 10px;
+}
+
+#input {
+    font-family: monospace;
+    font-size: 16px;
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #acdef1;
+  }
+
+  #ascii-art {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #acdef1;
+  }
+
+  #ascii-text {
+    font-family: monospace;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 16px;
+    color: #acdef1;
+    margin-bottom: 20px;
+  }
+  #version-number {
+    font-size: 16px;
+  }
